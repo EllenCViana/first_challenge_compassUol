@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body * {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    border: 1px solid red;
+    max-width: 1280px;
+    max-height: 760px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 528.01px;
+    width: 552.51px;
+    margin: 98px 0 133.99px 87.49px;
+}
+
+#text {
+    margin: 141px 38px 101px 67.99px;
+}
+
+h1, p{
+    margin:0;
+    font-size: 26px;
+}
+p {
+    font-family: "arial";
+}
+
+h1 {
+    margin-bottom: 7px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+#outrapag {
+    margin: 8px 0 15px 0;
+    text-align: center;
+}
+
+#outrapag a {
+
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    width: 199px;
+    height: 35.55px;
+    font-size: 22px;
+    border-radius: 35px;
+    border-top: 5px solid #3EB25E;
+    border-bottom: 5px solid #3EB25E;
+    border-left: 65px solid #3EB25E;
+    border-right: 65px solid #3EB25E;
+}
+#skip {
+    text-align: center;
+}
+
+#skip a {
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    width: 199px;
+    height: 35.55px;
+    font-size: 22px;
+    border-radius: 35px;
+    border-top: 5px solid #3EB25E;
+    border-bottom: 5px solid #3EB25E;
+    border-left: 158px solid #3EB25E;
+    border-right: 158px solid #3EB25E;
+
+}
+
+
+
+
+
+
+

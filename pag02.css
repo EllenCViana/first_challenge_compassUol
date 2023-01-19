@@ -1,55 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body * {
     border: 1px solid red;
 }
 body {
     display: flex;
-    font-family: 'Arial';
+    justify-content: center;
+}
+main {
+    border: 1px solid red;
+    max-width: 1280px;
+    max-height: 760px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 img {
-    height: 500px;
-    margin-top: 80px;
-    margin-left: 100px;
+    height: 480.01px;
+    width: 552.51px;
+    margin: 146px 0 133.99px 87.49px;
+
 }
 h1 {
     font-size: 39px;
     text-align: center;
-    width: 500px;
-    margin-top: 170px;
-    margin-left: 40px;
+    width: 473px;
+    height: 101px;
+    margin: 223px 88px 0 78.99px;
 }
 p {
-    width: 440px;
+    font-family: 'Arial', 'sans-serif';
+    font-style: normal;
+    width: 443px;
     text-align: center;
     font-size: 28px;
-    margin-left: 70px;
+    margin: 14px 103px 45px 93.99px;
+
 }
-#button1 {
-    position: absolute;
-    margin-left: 115px;
+a {
+    text-decoration: none;
     background-color:#3EB25E;
-    font-size: 20px;
     border: none;
     color: white;
-    width: 150px;
-    height: 35px;
+    width: 198px;
+    height: 36px;
+    font-size: 22px;
     border-radius: 35px;
+    border-top: 6px solid #3EB25E;
+    border-bottom: 6px solid #3EB25E;
+    border-left: 26px solid #3EB25E;
+    border-right: 26px solid #3EB25E;
+    
 }
-#button2 {
-    position: absolute;
-    margin-left: 300px;
-    background-color:#3EB25E;
-    font-size: 20px;
-    border: none;
-    color: white;
-    width: 150px;
-    height: 35px;
-    border-radius: 35px;
+#botao1 {
+    margin-left: 93.99px;
 }
-#button1:hover {
+#botao2 {
+    margin-left: 27px;
+}
+a:hover {
     background-color: #FFFF7D;
+    border-top: 6px solid #FFFF7D;
+    border-bottom: 6px solid #FFFF7D;
+    border-left: 26px solid #FFFF7D;
+    border-right: 26px solid #FFFF7D;
     color: black;
-}
-#button2:hover {
-    background-color: #FFFF7D;
-    color: black;
+    transition:all 0.6s;
 }
