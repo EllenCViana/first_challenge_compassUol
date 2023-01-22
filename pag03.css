@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body * {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
     max-width: 1280px;
     max-height: 760px;
     display: flex;
@@ -18,7 +18,7 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+#two {
     height: 528.01px;
     width: 552.51px;
     margin: 98px 0 133.99px 87.49px;
@@ -37,32 +37,83 @@ p {
 }
 
 h1 {
-    margin-bottom: 7px;
+    margin-bottom: 8px;
+}
+#account {
+    margin-bottom: 42px;
+    font-size: 27px;
+
 }
 
+.custom-select {
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 20px;
+    margin: 10px 0;
+  }
+  
+.custom-select select {
+    border-radius: 20px;
+    appearance: none;
+    width: 30vmax;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    background-color: white;
+    padding-left: 40px;
+    font-size: 1.7vmax;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+  }
+  
+.custom-select .select-arrow {
+    position: absolute;
+    left: 15px;
+    pointer-events: none;
+    align-self: center;
+  }
+.custom-select .select-arrow svg {
+    fill: #3EB25E;
+    opacity: 30%;
+    width: 20px;
+    height: 20px;
+  }
+  
+.custom-select select:focus + .select-arrow svg {
+    opacity: 100%;
+  }
+
 p {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 #outrapag {
-    margin: 8px 0 15px 0;
+    margin: 18px 0 15px 0;
     text-align: center;
 }
 
-#outrapag a {
+#back {
 
     text-decoration: none;
     background-color:#3EB25E;
     border: none;
     color: white;
-    width: 199px;
-    height: 35.55px;
     font-size: 22px;
     border-radius: 35px;
     border-top: 5px solid #3EB25E;
     border-bottom: 5px solid #3EB25E;
     border-left: 65px solid #3EB25E;
     border-right: 65px solid #3EB25E;
+}
+button {
+    text-align: center;
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 35.55px;
+    font-size: 22px;
+    border-radius: 35px;
 }
 #skip {
     text-align: center;
@@ -83,7 +134,37 @@ p {
     border-right: 158px solid #3EB25E;
 
 }
+.custom-radio {
+    margin-bottom: 15px;
+}
 
+.custom-radio input {
+    display: none;
+}
+
+.custom-radio input + label:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(62, 178, 94, 0.3);
+    border: 1px solid rgba(62, 178, 94, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.custom-radio input:checked + label:before {
+    background-color: #3EB25E;
+    box-sizing: border-box;
+    border:5px solid #3EB25E;
+    padding:4px;
+}
+
+label {
+    border-bottom: 400px;
+}
 
 
 

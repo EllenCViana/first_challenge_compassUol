@@ -9,70 +9,84 @@
   </head>
   <body>
     <main>
-      <img src="imagens/two.svg" />
+      <img id="two" src="imagens/two.svg" />
 
       <section id="text">
-        <section>
           <h1>What is the status of your account?</h1>
-          <p id="account">I have not created an account yet.</p>
-        </section>
+          <section class="custom-select">
+            <select>
+                <option value="new account">I have not created an account yet</option>
+                <option value="account created">I already have an account</option>
+            </select>
+            <section class="select-arrow">
+              <svg width="18" height="13" viewBox="0 0 18 13">
+                <path d="M15.8851 0H2.11493C0.446065 0 -0.48877 1.92338 0.542289 3.23564L7.42736 11.9985C8.22812 13.0176 9.77188 13.0176 10.5726 11.9985L17.4577 3.23564C18.4888 1.92339 17.5539 0 15.8851 0Z"></path>
+              </svg>
+            </section>
+          </section>      
 
-        <form>
+        <form action="pag04.html" >
           <h1>In which financial markets do you operate?</h1>
-          <p>
+          
+          <section class="custom-radio">
             <input
               type="radio"
-              id="selecao1"
-              name="selecao"
-              value="stockmarket"
+              id="radio-1"
+              name="question"
+              value="1"
+              required
             />
-            <label for="selecao1">stock market</label>
-          </p>
-          <p>
+            <label for="radio-1">Stock market</label>
+          </section>
+          <section class="custom-radio">
             <input
               type="radio"
-              id="selecao2"
-              name="selecao"
-              value="foreignexchange"
+              id="radio-2"
+              name="question"
+              value="2"
+              required
             />
-            <label for="selecao2">foreign exchange</label>
-          </p>
-          <p>
+            <label for="radio-2">Foreign exchange</label>
+          </section>
+          <section class="custom-radio">
             <input
               type="radio"
-              id="selecao3"
-              name="selecao"
-              value="commodity"
+              id="radio-3"
+              name="question"
+              value="3"
+              required
             />
-            <label for="selecao3">commodity</label>
-          </p>
-          <p>
+            <label for="radio-3">Commodity</label>
+          </section>
+          <section class="custom-radio">
             <input
               type="radio"
-              id="selecao4"
-              name="selecao"
-              value="bondmarket"
+              id="radio-4"
+              name="question"
+              value="4"
+              required
             />
-            <label for="selecao4">bond market</label>
-          </p>
-          <p>
+            <label for="radio-4">Bond market</label>
+          </section>
+          <section class="custom-radio">
             <input
               type="radio"
-              id="selecao5"
-              name="selecao"
-              value="cryptocurrency market"
+              id="radio-5"
+              name="question"
+              value="5"
+              required
             />
-            <label for="selecao5">cryptocurrency market</label>
-          </p>
-        </form>
-        <p id="outrapag">
-            <a id="back" href="pag02.html">Back</a>
-            <a href="pag03.html">Next</a>
-        </p>
-        <p id="skip">
-            <a href="pag03.html">Skip</a>
-        </p>
+            <label for="radio-5">Cryptocurrency market</label>
+          </section>
         
+        <p id="outrapag">
+          <a id="back" href="pag02.html">Back</a>
+          <button type="submit">Next</button>
+        </p>
+      </form>
+        <p id="skip">
+          <a href="pag04.html">Skip</a>
+        </p>
       </section>
     </main>
   </body>
