@@ -1,122 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-body * {
-    border: 1px solid rgb(255, 0, 0);
-}
-
 body {
     display: flex;
     justify-content: center;
 }
 
 main {
-    border: 1px solid rgb(255, 0, 0);
-    max-width: 1280px;
-    max-height: 760px;
+    max-width: 94.60458240946046vw;
+    max-height: 125.20593080724876vh;
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
 
 #two {
-    height: 528.01px;
-    width: 552.51px;
-    margin: 98px 0 133.99px 87.49px;
+    height: 86.98682042833607vh;
+    width: 40.83592017738359vw;
+    margin: 16.14497528830313vh 0 22.074135090609555vh 6.4663710273466375vw;
 }
 
 #text {
-    margin: 141px 38px 101px 67.99px;
+    margin: 23.228995057660626vh 2.8085735402808574vw 16.639209225700164vh 5.025129342202512vw;
 }
 
-h1, p{
+h1, p, .custom-radio, select{
     margin:0;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
-p {
-    font-family: "arial";
+
+label {
+    font-family: "Arial"; 
 }
 
 h1 {
-    margin-bottom: 8px;
+    margin-bottom: 1.3179571663920921vh;
 }
-#account {
-    margin-bottom: 42px;
-    font-size: 27px;
 
+#account {
+    margin-bottom: 6.919275123558484vh;
+    font-size: 1.688rem;
 }
 
 .custom-select {
     position: relative;
     display: grid;
-    grid-template-columns: 200px 20px;
-    margin: 10px 0;
-  }
+    grid-template-columns: 32.948929159802304vh  1.4781966001478197vw;
+    margin: 1.6474464579901154vh 0 4.283360790774299vh 0;
+}
   
 .custom-select select {
     border-radius: 20px;
     appearance: none;
-    width: 30vmax;
+    width: 34vmax;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding: 10px;
+    padding: 1.6vh 0.7320644216691069vw;
     background-color: white;
-    padding-left: 40px;
-    font-size: 1.7vmax;
-    border: 2px solid rgba(0, 0, 0, 0.25);
-  }
+    padding-left: 2.9282576866764276vw;
+    font-size: 1.6vmax;
+    border:  0.32vh 0.14641288433382138vw solid rgba(0, 0, 0, 0.25);
+}
   
 .custom-select .select-arrow {
     position: absolute;
-    left: 15px;
+    left: 1.1086474501108647vw;
     pointer-events: none;
     align-self: center;
-  }
+}
+
 .custom-select .select-arrow svg {
     fill: #3EB25E;
     opacity: 30%;
-    width: 20px;
-    height: 20px;
-  }
+    width: 1.4781966001478197vw;
+    height: 3.2948929159802307vh;
+}
   
 .custom-select select:focus + .select-arrow svg {
     opacity: 100%;
-  }
+}
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 3.2948929159802307vh;
 }
 
 #outrapag {
-    margin: 18px 0 15px 0;
+    margin: 2.9654036243822075vh 0 2.471169686985173vh 0;
     text-align: center;
 }
 
 #back {
-
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color:#3EB25E;
     border: none;
     color: white;
-    font-size: 22px;
+    font-size: 1.375rem;
     border-radius: 35px;
-    border-top: 5px solid #3EB25E;
-    border-bottom: 5px solid #3EB25E;
-    border-left: 65px solid #3EB25E;
-    border-right: 65px solid #3EB25E;
+    border-top: 0.8237232289950577vh solid #3EB25E;
+    border-bottom: 0.8237232289950577vh solid #3EB25E;
+    border-left: 4.8041389504804135vw solid #3EB25E;
+    border-right: 4.8041389504804135vw solid #3EB25E;
 }
+
 button {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-decoration: none;
     background-color:#3EB25E;
     border: none;
     color: white;
-    width: 165px;
-    height: 35.55px;
-    font-size: 22px;
+    width: 12.195121951219512vw;
+    height: 5.8566721581548595vh;
+    font-size: 1.375rem;
     border-radius: 35px;
+    border-top:  0.6589785831960461vh solid #3EB25E;
+    border-bottom: 0.8237232289950577vhx solid #3EB25E;
+    border-left: 4.582409460458241vw solid #3EB25E;
+    border-right:  7.464892830746489vw solid #3EB25E;
 }
+
+button:hover {
+    background-color: #FFFF7D;
+    border-top: 0.6589785831960461vh solid #FFFF7D;
+    border-bottom: 0.8237232289950577vh solid #FFFF7D;
+    border-left: 4.582409460458241vw solid #FFFF7D;
+    border-right: 7.464892830746489vw solid #FFFF7D;
+    color: black;
+}
+
+#back:hover {
+    background-color: #FFFF7D;
+    border-top: 0.6589785831960461vh solid #FFFF7D;
+    border-bottom: 0.8237232289950577vh solid #FFFF7D;
+    border-left: 4.8041389504804135vw solid #FFFF7D;
+    border-right: 4.8041389504804135vw solid #FFFF7D;
+    color: black;
+}
+
 #skip {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #skip a {
@@ -124,18 +147,27 @@ button {
     background-color:#3EB25E;
     border: none;
     color: white;
-    width: 199px;
-    height: 35.55px;
-    font-size: 22px;
+    width:  14.708056171470806vw;
+    height: 3 0.914332784184514vh;
+    font-size: 1.375rem;
     border-radius: 35px;
-    border-top: 5px solid #3EB25E;
-    border-bottom: 5px solid #3EB25E;
-    border-left: 158px solid #3EB25E;
-    border-right: 158px solid #3EB25E;
-
+    border-top: 0.8237232289950577vh solid #3EB25E;
+    border-bottom:  0.8237232289950577vh solid #3EB25E;
+    border-left:  11.677753141167775vw solid #3EB25E;
+    border-right:  11.677753141167775vw solid #3EB25E;
 }
+
+#skip a:hover {
+    background-color: #FFFF7D;
+    border-top: 0.8237232289950577vh solid #FFFF7D;
+    border-bottom: 0.8237232289950577vh solid #FFFF7D;
+    border-left: 11.677753141167775vw solid #FFFF7D;
+    border-right: 11.677753141167775vw solid #FFFF7D;
+    color: black;
+}
+
 .custom-radio {
-    margin-bottom: 15px;
+    margin-bottom: 2.471169686985173vh;
 }
 
 .custom-radio input {
@@ -144,30 +176,24 @@ button {
 
 .custom-radio input + label:before {
     content: '';
-    width: 16px;
-    height: 16px;
+    width: 1.1825572801182558vw;
+    height: 2.6359143327841843vh;
     border-radius: 50%;
     background-color: rgba(62, 178, 94, 0.3);
     border: 1px solid rgba(62, 178, 94, 0.3);
     display: inline-block;
     vertical-align: middle;
-    margin-right: 8px;
-    margin-bottom: 3px;
+    margin-right: 0.5912786400591279vw;
+    margin-bottom: 0.4942339373970346vh;
 }
 
 .custom-radio input:checked + label:before {
     background-color: #3EB25E;
     box-sizing: border-box;
-    border:5px solid #3EB25E;
-    padding:4px;
+    border:0.8vh 0.36603221083455345vw solid #3EB25E;
+    padding:0.64vh 0.29282576866764276vw;
 }
 
 label {
-    border-bottom: 400px;
+    border-bottom: 65.89785831960461vh;
 }
-
-
-
-
-
-

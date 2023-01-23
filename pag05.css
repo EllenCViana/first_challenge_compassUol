@@ -1,19 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-body * {
-    border: 1px solid rgb(255, 0, 0);
-}
-
 body {
     display: flex;
     justify-content: center;
 }
 
 main {
-    border: 1px solid rgb(255, 0, 0);
-    max-width: 1280px;
-    max-height: 760px;
+    max-width: 93.70424597364568vw;
+    max-height: 121.6vh;
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin: 16.8vh 0 21.4384vh  6.404831625183016vw;
+}
+
+h1 {
+    margin:  28vh 6.002928257686676vw 1.6vh  6.734260614934114vw;
+    font-size: 26px;
+}
+
+textarea {
+    margin: 0  6.515373352855051vw 9.76vh 6.515373352855051vw;
+    width:  33.60175695461201vw;
+    height: 36vh;
+    left:  53.587115666178626vw;
+    top:  45.6vh;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;;
+}
+
+#outrapag {
+    margin: 0 0 2.4vh 0;
+    text-align: center;
+}
+
+#back {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 35px;
+    border-top: 0.96vh solid #3EB25E;
+    border-bottom: 0.8vh solid #3EB25E;
+    border-left: 4.612005856515373vw solid #3EB25E;
+    border-right: 4.612005856515373vw solid #3EB25E;
+}
+
+button {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    width:  12.079062957540264vw;
+    height:  5.687999999999999vh;
+    font-size: 22px;
+    border-radius: 35px;
+    border-top: 0.8vh solid #3EB25E;
+    border-bottom: 0.8vh solid #3EB25E;
+    border-left: 4.026354319180088vw solid #3EB25E;
+    border-right: 4.612005856515373vw solid #3EB25E;
+}
+
+#skip {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#skip a {
+    text-decoration: none;
+    background-color:#3EB25E;
+    border: none;
+    color: white;
+    width: 14.568081991215227vw;
+    height: 5.687999999999999vh;
+    font-size: 22px;
+    border-radius: 35px;
+    border-top: 0.8vh solid #3EB25E;
+    border-bottom: 0.8vh solid #3EB25E;
+    border-left: 11.200585651537335vw solid #3EB25E;
+    border-right: 11.200585651537335vw solid #3EB25E;
+}
+
+button:hover {
+    background-color: #FFFF7D;
+    border-top: 0.8vh solid #FFFF7D;
+    border-bottom: 0.8vh solid #FFFF7D;
+    border-left: 4.026354319180088vw solid #FFFF7D;
+    border-right: 4.612005856515373vw solid #FFFF7D;
+    color: black;
+}
+
+#back:hover {
+    background-color: #FFFF7D;
+    border-top: 0.96vh solid #FFFF7D;
+    border-bottom: 0.8vh solid #FFFF7D;
+    border-left: 4.612005856515373vw solid #FFFF7D;
+    border-right: 4.612005856515373vw solid #FFFF7D;
+    color: black;
+}
+
+#skip a:hover {
+    background-color: #FFFF7D;
+    border-top: 0.8vh solid #FFFF7D;
+    border-bottom: 0.8vh solid #FFFF7D;
+    border-left:  11.566617862371888vw solid #FFFF7D;
+    border-right:  11.566617862371888vw solid #FFFF7D;
+    color: black;
 }
